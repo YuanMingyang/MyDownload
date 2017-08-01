@@ -23,7 +23,6 @@
 		2FA070FC1F302D9E00CE73FD /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA070FB1F302D9E00CE73FD /* VideoViewController.m */; };
 		2FA070FF1F304CE700CE73FD /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA070FE1F304CE700CE73FD /* PlayerView.m */; };
 		2FA071011F304CF300CE73FD /* PlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA071001F304CF300CE73FD /* PlayerView.xib */; };
-		2FA071051F305FD000CE73FD /* 2BF06A944C9D7EB40836D89595999231.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2FA071041F305FD000CE73FD /* 2BF06A944C9D7EB40836D89595999231.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +53,6 @@
 		2FA070FD1F304CE700CE73FD /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
 		2FA070FE1F304CE700CE73FD /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
 		2FA071001F304CF300CE73FD /* PlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerView.xib; sourceTree = "<group>"; };
-		2FA071041F305FD000CE73FD /* 2BF06A944C9D7EB40836D89595999231.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2BF06A944C9D7EB40836D89595999231.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 		2F269B091F2F0715003956D9 /* Download */ = {
 			isa = PBXGroup;
 			children = (
-				2FA071041F305FD000CE73FD /* 2BF06A944C9D7EB40836D89595999231.mp4 */,
 				2FA070BF1F3022F900CE73FD /* DownloadTool */,
 				2F269B301F2F1A14003956D9 /* Model */,
 				2F269B0D1F2F0715003956D9 /* AppDelegate.h */,
@@ -206,7 +203,6 @@
 				2F269B151F2F0715003956D9 /* Main.storyboard in Resources */,
 				2F269B2F1F2F19CC003956D9 /* videoData.json in Resources */,
 				2FA071011F304CF300CE73FD /* PlayerView.xib in Resources */,
-				2FA071051F305FD000CE73FD /* 2BF06A944C9D7EB40836D89595999231.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

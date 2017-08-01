@@ -62,7 +62,11 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     FileModel *file = self.mutableArray[indexPath.row];
     TaskProgressInfo *info = [[DownloadManager shareManager] progressInfoIfFileExsit:file.playUrl];
-    NSLog(@"%@",info.path);
+    if (info.progress!=1) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:@"文件未下载完成" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles: nil];
+        [alert show];
+        return;
+    }
     VideoViewController *vc = [[VideoViewController alloc] init];
     vc.path = info.path;
     [self presentViewController:vc animated:YES completion:nil
